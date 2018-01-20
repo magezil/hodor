@@ -4,4 +4,4 @@ import requests
 
 for i in range(1024):
     r = requests.post('http://158.69.76.135/level0.php', data={'id':'256', 'holdthedoor':'submit'})
-    print(r.url)
+print("voted {:d} times", i + 1)
